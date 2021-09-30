@@ -4,9 +4,12 @@ const mainBoard = function () {
     mainBoardDiv.innerHTML += `<div class= 'board-cell'>${bingoboardcells + 1}</div>`;
   }
 };
-// const bingoButton = function (random) {
-//   const randomNumber = Math.floor(Math.random() * random);
-// };
+const bingoButton = function (randomNumber) {
+  const randomNumber = Math.floor((Math.random() * 76) + 1)
+}
+
+
+
 
 
 window.onload = function () {
